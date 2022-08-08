@@ -16,5 +16,5 @@ test('Check methods for Intern', () => {
     expect(employee.getId()).toBe(employee.id);
     expect(employee.getEmail()).toBe(employee.email);
     expect(employee.getSchool()).toBe(employee.school);
-    expect(employee.getRole()).toBe('Intern');
+    expect(employee.Role()).toBe('Intern');
 })

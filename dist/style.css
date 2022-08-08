@@ -1,0 +1,30 @@
+body {
+  background-color: silver;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  margin: 20px;
+  width: 20%;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.card-header, .card-body {
+  text-align: center;
+}

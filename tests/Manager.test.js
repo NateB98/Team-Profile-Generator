@@ -16,5 +16,5 @@ test('check methods for manager', () => {
   expect(employee.getId()).toBe(employee.id);
   expect(employee.getEmail()).toBe(employee.email);
   expect(employee.getOfficeNumber()).toBe(employee.number);
-  expect(employee.getRole()).toBe('Manager');
+  expect(employee.Role()).toBe('Manager');
 });
